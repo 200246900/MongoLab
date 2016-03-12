@@ -26,4 +26,9 @@ router.get('/contact', (req:express.Request, res:express.Response, next:any) => 
   res.render('contact', { title: 'Contact' });
 });
 
+/* GET contact page. */
+router.get('/users', (req:express.Request, res:express.Response, next:any) => {
+  res.render('users', { title: 'Users' });
+});
+
 module.exports = router;

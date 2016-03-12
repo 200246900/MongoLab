@@ -20,6 +20,10 @@ router.get('/about', function (req, res, next) {
 router.get('/contact', function (req, res, next) {
     res.render('contact', { title: 'Contact' });
 });
+/* GET contact page. */
+router.get('/users', function (req, res, next) {
+    res.render('users', { title: 'Users' });
+});
 module.exports = router;
 
 //# sourceMappingURL=index.js.map
