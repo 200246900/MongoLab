@@ -22,11 +22,9 @@
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
   },
-  ///////
   "engines": {
     "node": "5.4.0"
   },
-  //////NPM
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-connect": "^2.3.1",
